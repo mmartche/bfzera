@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script src="//d3js.org/d3.v3.min.js"></script>
+		<script src="./chart-daily.js"></script>
+		<script src="./data/chart-daily.js"></script>
+		<script src="./data/chart-total.js"></script>
+		<script src="//d3js.org/d3.v3.min.js"></script>
+		<script src="./chart-pie.js"></script>
+	</head>
+	<body>
+		<h1>Total de Raddas</h1>
+			<div id="raddasTotal" class="lineChart" ></div>
+		<h1>Raddas por Dia</h1>
+			<div id="raddasPerDay" class="lineChart" ></div>
+			<div class="pieChart raddasPerClass_mmartche_br">
+				<h3>Raddas por Classe {mmartche_br}</h3>
+				<script>createPieRadda("mmartche_br");</script>
+			</div>
+			<div class="pieChart raddasPerClass_thiagossegatto">
+				<h3>Raddas por Classe {thiagossegatto}</h3>
+				<script>createPieRadda("thiagossegatto");</script>
+			</div>
+			<div class="pieChart raddasPerClass_FARRELL_E_TALITA">
+				<h3>Raddas por Classe {FARRELL_E_TALITA}</h3>
+				<script>createPieRadda("FARRELL_E_TALITA");</script>
+			</div>
+			<div class="pieChart raddasPerClass_nderato">
+				<h3>Raddas por Classe {nderato}</h3>
+				<script>createPieRadda("nderato");</script>
+			</div>
+			<div class="pieChart raddasPerClass_UrsoYogi">
+				<h3>Raddas por Classe {UrsoYogi}</h3>
+				<script>createPieRadda("UrsoYogi");</script>
+			</div>
+			<div class="pieChart raddasPerClass_Valdeirsilva12">
+				<h3>Raddas por Classe {Valdeirsilva12}</h3>
+				<script>createPieRadda("Valdeirsilva12");</script>
+			</div>
+
+	</body>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</html>
+
+

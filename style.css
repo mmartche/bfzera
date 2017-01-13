@@ -1,0 +1,13 @@
+.pieChart {
+	float: left;
+}
+.raddasPerClass {
+	border: 1px solid;
+}
+.pieChart path {
+  stroke: #fff;
+  stroke-width: 2;
+}
+.lineChart {
+	height: 30em;
+}

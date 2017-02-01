@@ -1,16 +1,16 @@
 [{
 	"date": "30\/01\/17",
 	"FARRELL_E_TALITA": {
-		"kills": 18251,
-		"deaths": 5600,
-		"killAssists": 578,
-		"kdr": 3.25
+		"kills": 18051,
+		"deaths": 5400,
+		"killAssists": 545,
+		"kdr": 3.34
 	},
 	"mmartche_br": {
-		"kills": 4981,
-		"deaths": 5182,
-		"killAssists": 175,
-		"kdr": 0.95
+		"kills": 4681,
+		"deaths": 5002,
+		"killAssists": 132,
+		"kdr": 0.93
 	},
 	"nderato": {
 		"kills": 668,
@@ -19,10 +19,10 @@
 		"kdr": 0.86
 	},
 	"thiagossegatto": {
-		"kills": 14945,
-		"deaths": 8685,
-		"killAssists": 675,
-		"kdr": 1.71
+		"kills": 14045,
+		"deaths": 8585,
+		"killAssists": 670,
+		"kdr": 1.63
 	},
 	"UrsoYogi": {
 		"kills": 147,
@@ -48,18 +48,18 @@
 		"killAssists": 205,
 		"kdr": 2.79
 	}
-},{
+}, {
 	"date": "31\/01\/17",
 	"FARRELL_E_TALITA": {
-		"kills": 18252,
-		"deaths": 5601,
-		"killAssists": 579,
-		"kdr": 3.26
+		"kills": 18052,
+		"deaths": 5501,
+		"killAssists": 559,
+		"kdr": 3.28
 	},
 	"mmartche_br": {
-		"kills": 4982,
-		"deaths": 5183,
-		"killAssists": 176,
+		"kills": 4882,
+		"deaths": 5083,
+		"killAssists": 156,
 		"kdr": 0.96
 	},
 	"nderato": {
@@ -69,10 +69,10 @@
 		"kdr": 0.87
 	},
 	"thiagossegatto": {
-		"kills": 14946,
-		"deaths": 8686,
+		"kills": 14546,
+		"deaths": 8680,
 		"killAssists": 677,
-		"kdr": 1.72
+		"kdr": 1.67
 	},
 	"UrsoYogi": {
 		"kills": 147,

@@ -4,7 +4,11 @@
 		<script src="//d3js.org/d3.v3.min.js"></script>
 		<script src="./chart-daily.js"></script>
 		<script src="./data/chart-daily.js"></script>
+		<script src="./data/chart-deaths.js"></script>
+		<script src="./data/chart-killAssists.js"></script>
+		<script src="./data/chart-kdr.js"></script>
 		<script src="./data/chart-total.js"></script>
+		<script src="./data/dataRaddaKilledPerDay.js"></script>
 		<script src="//d3js.org/d3.v3.min.js"></script>
 		<script src="./chart-pie.js"></script>
 	</head>
@@ -13,6 +17,16 @@
 			<div id="raddasTotal" class="lineChart" ></div>
 		<h1>Raddas por Dia</h1>
 			<div id="raddasPerDay" class="lineChart" ></div>
+			<hr />
+		<h1>Mortes por Raddas</h1>
+			<div id="raddasDeaths" class="lineChart" ></div>
+			<hr />
+		<h1>Assistencia em Raddas por Dia</h1>
+			<div id="raddasKillAssists" class="lineChart" ></div>
+			<hr />
+		<h1>K/d</h1>
+			<div id="raddasKdr" class="lineChart" ></div>
+			<hr />
 			<div class="pieChart raddasPerClass_mmartche_br">
 				<h3>Raddas por Classe {mmartche_br}</h3>
 				<script>createPieRadda("mmartche_br");</script>

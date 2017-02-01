@@ -1,1 +1,201 @@
-[{"date":"29\/11\/16","FARRELL_E_TALITA":9710,"mmartche_br":985,"nderato":118,"thiagossegatto":2136,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"30\/11\/16","FARRELL_E_TALITA":9710,"mmartche_br":1013,"nderato":155,"thiagossegatto":2320,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"01\/12\/16","FARRELL_E_TALITA":9844,"mmartche_br":1085,"nderato":185,"thiagossegatto":2543,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"02\/12\/16","FARRELL_E_TALITA":9844,"mmartche_br":1129,"nderato":210,"thiagossegatto":2571,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"05\/12\/16","FARRELL_E_TALITA":10712,"mmartche_br":1130,"nderato":249,"thiagossegatto":3114,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"06\/12\/16","FARRELL_E_TALITA":10882,"mmartche_br":1130,"nderato":285,"thiagossegatto":3207,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"07\/12\/16","FARRELL_E_TALITA":10882,"mmartche_br":1130,"nderato":285,"thiagossegatto":3318,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"08\/12\/16","FARRELL_E_TALITA":10882,"mmartche_br":1130,"nderato":285,"thiagossegatto":3457,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"09\/12\/16","FARRELL_E_TALITA":11162,"mmartche_br":1356,"nderato":285,"thiagossegatto":3485,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"13\/12\/16","FARRELL_E_TALITA":12582,"mmartche_br":1497,"nderato":358,"thiagossegatto":3853,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"15\/12\/16","FARRELL_E_TALITA":12919,"mmartche_br":1663,"nderato":441,"thiagossegatto":4077,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"16\/12\/16","FARRELL_E_TALITA":12974,"mmartche_br":1695,"nderato":441,"thiagossegatto":4157,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"19\/12\/16","FARRELL_E_TALITA":13837,"mmartche_br":1879,"nderato":441,"thiagossegatto":4835,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"20\/12\/16","FARRELL_E_TALITA":13981,"mmartche_br":1934,"nderato":441,"thiagossegatto":5033,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"21\/12\/16","FARRELL_E_TALITA":14417,"mmartche_br":1945,"nderato":441,"thiagossegatto":5322,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"22\/12\/16","FARRELL_E_TALITA":14689,"mmartche_br":2100,"nderato":441,"thiagossegatto":5795,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"23\/12\/16","FARRELL_E_TALITA":14931,"mmartche_br":2190,"nderato":441,"thiagossegatto":6048,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"25\/12\/16","FARRELL_E_TALITA":15353,"mmartche_br":2205,"nderato":446,"thiagossegatto":6048,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"26\/12\/16","FARRELL_E_TALITA":15482,"mmartche_br":2205,"nderato":446,"thiagossegatto":6048,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"27\/12\/16","FARRELL_E_TALITA":15482,"mmartche_br":2252,"nderato":490,"thiagossegatto":6565,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"28\/12\/16","FARRELL_E_TALITA":15482,"mmartche_br":2356,"nderato":490,"thiagossegatto":6902,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"29\/12\/16","FARRELL_E_TALITA":15488,"mmartche_br":2371,"nderato":516,"thiagossegatto":7099,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"30\/12\/16","FARRELL_E_TALITA":15488,"mmartche_br":2449,"nderato":532,"thiagossegatto":7207,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"31\/12\/16","FARRELL_E_TALITA":15490,"mmartche_br":2449,"nderato":532,"thiagossegatto":7313,"UrsoYogi":0,"Valdeirsilva12":0},{"date":"02\/01\/17","FARRELL_E_TALITA":16157,"mmartche_br":2554,"nderato":532,"thiagossegatto":7755,"UrsoYogi":143,"Valdeirsilva12":260},{"date":"03\/01\/17","FARRELL_E_TALITA":16325,"mmartche_br":2554,"nderato":532,"thiagossegatto":7786,"UrsoYogi":143,"Valdeirsilva12":334},{"date":"04\/01\/17","FARRELL_E_TALITA":16481,"mmartche_br":2566,"nderato":532,"thiagossegatto":8310,"UrsoYogi":143,"Valdeirsilva12":334},{"date":"05\/01\/17","FARRELL_E_TALITA":16717,"mmartche_br":2566,"nderato":532,"thiagossegatto":8370,"UrsoYogi":143,"Valdeirsilva12":334},{"date":"06\/01\/17","FARRELL_E_TALITA":16807,"mmartche_br":2566,"nderato":532,"thiagossegatto":8370,"UrsoYogi":143,"Valdeirsilva12":334},{"date":"07\/01\/17","FARRELL_E_TALITA":17515,"mmartche_br":2646,"nderato":532,"thiagossegatto":8478,"UrsoYogi":143,"Valdeirsilva12":334},{"date":"09\/01\/17","FARRELL_E_TALITA":17962,"mmartche_br":2801,"nderato":532,"thiagossegatto":8678,"UrsoYogi":143,"Valdeirsilva12":334},{"date":"10\/01\/17","FARRELL_E_TALITA":17962,"mmartche_br":2879,"nderato":532,"thiagossegatto":9000,"UrsoYogi":143,"Valdeirsilva12":334},{"date":"11\/01\/17","FARRELL_E_TALITA":17962,"mmartche_br":2879,"nderato":532,"thiagossegatto":9365,"UrsoYogi":143,"Valdeirsilva12":334},{"date":"12\/01\/17","FARRELL_E_TALITA":17962,"mmartche_br":2879,"nderato":532,"thiagossegatto":9515,"UrsoYogi":143,"Valdeirsilva12":334},{"date":"13\/01\/17","FARRELL_E_TALITA":17962,"mmartche_br":2879,"nderato":532,"thiagossegatto":9557,"UrsoYogi":143,"Valdeirsilva12":334}]
+[{
+	"date": "28\/01\/17",
+	"FARRELL_E_TALITA": {
+		"kills": 8212,
+		"deaths": 593,
+		"killAssists": 78,
+		"kdr": 3.2
+	},
+	"mmartche_br": {
+		"kills": 982,
+		"deaths": 183,
+		"killAssists": 76,
+		"kdr": 0.6
+	},
+	"nderato": {
+		"kills": 69,
+		"deaths": 71,
+		"killAssists": 0,
+		"kdr": 0.8
+	},
+	"thiagossegatto": {
+		"kills": 4946,
+		"deaths": 686,
+		"killAssists": 77,
+		"kdr": 1.7
+	},
+	"UrsoYogi": {
+		"kills": 47,
+		"deaths": 70,
+		"killAssists": 0,
+		"kdr": 0.8
+	},
+	"Valdeirsilva12": {
+		"kills": 34,
+		"deaths": 93,
+		"killAssists": 5,
+		"kdr": 0.6
+	},
+	"RenanKillRJ": {
+		"kills": 4088,
+		"deaths": 291,
+		"killAssists": 4,
+		"kdr": 2.6
+	},
+	"CVL-ziG": {
+		"kills": 4608,
+		"deaths": 1654,
+		"killAssists": 205,
+		"kdr": 2.79
+	}
+},{
+	"date": "29\/01\/17",
+	"FARRELL_E_TALITA": {
+		"kills": 8212,
+		"deaths": 593,
+		"killAssists": 78,
+		"kdr": 3.2
+	},
+	"mmartche_br": {
+		"kills": 982,
+		"deaths": 183,
+		"killAssists": 76,
+		"kdr": 0.6
+	},
+	"nderato": {
+		"kills": 69,
+		"deaths": 71,
+		"killAssists": 0,
+		"kdr": 0.8
+	},
+	"thiagossegatto": {
+		"kills": 4946,
+		"deaths": 686,
+		"killAssists": 77,
+		"kdr": 1.7
+	},
+	"UrsoYogi": {
+		"kills": 47,
+		"deaths": 70,
+		"killAssists": 0,
+		"kdr": 0.8
+	},
+	"Valdeirsilva12": {
+		"kills": 34,
+		"deaths": 93,
+		"killAssists": 5,
+		"kdr": 0.6
+	},
+	"RenanKillRJ": {
+		"kills": 4088,
+		"deaths": 291,
+		"killAssists": 4,
+		"kdr": 2.6
+	},
+	"CVL-ziG": {
+		"kills": 4608,
+		"deaths": 1654,
+		"killAssists": 205,
+		"kdr": 2.79
+	}
+},{
+	"date": "30\/01\/17",
+	"FARRELL_E_TALITA": {
+		"kills": 8212,
+		"deaths": 593,
+		"killAssists": 78,
+		"kdr": 3.2
+	},
+	"mmartche_br": {
+		"kills": 982,
+		"deaths": 183,
+		"killAssists": 76,
+		"kdr": 0.6
+	},
+	"nderato": {
+		"kills": 69,
+		"deaths": 71,
+		"killAssists": 0,
+		"kdr": 0.8
+	},
+	"thiagossegatto": {
+		"kills": 4946,
+		"deaths": 686,
+		"killAssists": 77,
+		"kdr": 1.7
+	},
+	"UrsoYogi": {
+		"kills": 47,
+		"deaths": 70,
+		"killAssists": 0,
+		"kdr": 0.8
+	},
+	"Valdeirsilva12": {
+		"kills": 34,
+		"deaths": 93,
+		"killAssists": 5,
+		"kdr": 0.6
+	},
+	"RenanKillRJ": {
+		"kills": 4088,
+		"deaths": 291,
+		"killAssists": 4,
+		"kdr": 2.6
+	},
+	"CVL-ziG": {
+		"kills": 4608,
+		"deaths": 1654,
+		"killAssists": 205,
+		"kdr": 2.79
+	}
+}, {
+	"date": "31\/01\/17",
+	"FARRELL_E_TALITA": {
+		"kills": 18212,
+		"deaths": 5593,
+		"killAssists": 578,
+		"kdr": 3.26
+	},
+	"mmartche_br": {
+		"kills": 4982,
+		"deaths": 5183,
+		"killAssists": 176,
+		"kdr": 0.96
+	},
+	"nderato": {
+		"kills": 669,
+		"deaths": 771,
+		"killAssists": 40,
+		"kdr": 0.87
+	},
+	"thiagossegatto": {
+		"kills": 14946,
+		"deaths": 8686,
+		"killAssists": 677,
+		"kdr": 1.72
+	},
+	"UrsoYogi": {
+		"kills": 147,
+		"deaths": 170,
+		"killAssists": 6,
+		"kdr": 0.86
+	},
+	"Valdeirsilva12": {
+		"kills": 334,
+		"deaths": 493,
+		"killAssists": 15,
+		"kdr": 0.68
+	},
+	"RenanKillRJ": {
+		"kills": 14088,
+		"deaths": 5291,
+		"killAssists": 704,
+		"kdr": 2.66
+	},
+	"CVL-ziG": {
+		"kills": 4608,
+		"deaths": 1654,
+		"killAssists": 205,
+		"kdr": 2.79
+	}
+}]

@@ -1,12 +1,15 @@
 <?php
-
+var_dump(date('d/m/y h:m'));
+print_r("<hr>");
 $soldados = array(
 	["displayName"=>"FARRELL_E_TALITA",	"platform"=>"3"],
 	["displayName"=>"mmartche_br",		"platform"=>"2"],
 	["displayName"=>"nderato",			"platform"=>"2"],
 	["displayName"=>"thiagossegatto",	"platform"=>"2"],
 	["displayName"=>"UrsoYogi",			"platform"=>"3"],
-	["displayName"=>"Valdeirsilva12",	"platform"=>"1"]
+	["displayName"=>"Valdeirsilva12",	"platform"=>"1"],
+	["displayName"=>"RenanKillRJ",		"platform"=>"2"],
+	["displayName"=>"CVL-ziG",			"platform"=>"3"]
 	);
 
 $arraySoldados = array([
@@ -16,10 +19,18 @@ $arraySoldados = array([
 	"nderato" 			=>"0", 
 	"thiagossegatto" 	=>"0", 
 	"UrsoYogi"			=>"0", 
-	"Valdeirsilva12"	=>"0"
+	"Valdeirsilva12"	=>"0",
+	"RenanKillRJ"		=>"0",
+	"CVL-ziG"			=>"0"
 	]);
+$newArraySoldados = array([
+	"date" => date('d/m/y')
+	]);
+$deathSoldados = $arraySoldados;
+$killAssists = $arraySoldados;
+$kdr = $arraySoldados;
 
-function adicionaDiario($dataArrayToProccess, $nomeSoldados) {
+function adicionaDiario($nomeSoldados, $dailyToProccess) {
 	$fileLogColeta = "./data/logColetaTotal.php";
 	$contents = file_get_contents($fileLogColeta); 
 	$contents = utf8_encode($contents); 
@@ -28,27 +39,42 @@ function adicionaDiario($dataArrayToProccess, $nomeSoldados) {
 		print_r("<br />-> Updated DB<br />");
 		array_pop($results);
 	}
-	array_push($results, $dataArrayToProccess);
+	array_push($results, $dailyToProccess);
 	$row = json_encode($results);
 	file_put_contents($fileLogColeta, $row, LOCK_EX);
 	$newResults = json_decode($row);
 		$jsVariableTotal = "var dadosRaddaTotal = [";
 		$jsVariableDaily = "var dadosRaddaPerDay = [";
+		$jsVariableDeaths = "var dadosRaddaDeaths = [";
+		$jsVariableKillAssists = "var dadosRaddaKillAssists = [";
+		$jsVariableKdr = "var dadosRaddaKdr = [";
 		$jointFileTotal = "";
-		$ultimoSoldado = array();
+		$lastKill = array();
 	for ($r=0; $r < count($newResults); $r++) { 
 		$initFile = "['".(string)$newResults[$r]->date."'";
 		$middleFile = "";
-		$middleFileDaily = "";
+		$middleFileKdr = $middleFileKillAssists = $middleFileDeaths = $middleFileDaily = "";
 		for ($n=0; $n < count($nomeSoldados); $n++) { 
 			if (!empty($newResults[$r])) {
 				$nome = $nomeSoldados[$n]["displayName"];
-				$middleFile .= ",".(int)$newResults[$r]->$nome;
+				$middleFile .= ",".(int)$newResults[$r]->$nome->kills;
 				if ($r == 0) {
-					$ultimoSoldado[$nome] = (int)$newResults[$r]->$nome;
+					$lastKills[$nome] = (int)$newResults[$r]->$nome->kills;
+					$lastDeaths[$nome] = (int)$newResults[$r]->$nome->deaths;
+					$lastKillAssists[$nome] = (int)$newResults[$r]->$nome->killAssists;
+					$lastKdr[$nome] = (int)$newResults[$r]->$nome->kdr;
 				} else {
-					$middleFileDaily .= ",".((int)$newResults[$r]->$nome - $ultimoSoldado[$nome]);
-					$ultimoSoldado[$nome] = (int)$newResults[$r]->$nome;
+					$middleFileDaily .= ",".((int)$newResults[$r]->$nome->kills - $lastKill[$nome]);
+					$lastKill[$nome] = (int)$newResults[$r]->$nome->kills;
+
+					$middleFileDeaths .= ",".((int)$newResults[$r]->$nome->deaths - $lastDeaths[$nome]);
+					$lastDeaths[$nome] = (int)$newResults[$r]->$nome->deaths;
+
+					$middleFileKillAssists .= ",".((int)$newResults[$r]->$nome->killAssists - $lastKillAssists[$nome]);
+					$lastKillAssists[$nome] = (int)$newResults[$r]->$nome->killAssists;
+
+					$middleFileKdr .= ",".((float)$newResults[$r]->$nome->kdr - $lastKdr[$nome]);
+					$lastKdr[$nome] = (float)$newResults[$r]->$nome->kdr;
 				}
 			}
 		}
@@ -57,6 +83,13 @@ function adicionaDiario($dataArrayToProccess, $nomeSoldados) {
 		if ($r > 0) {
 			$jointFileDaily .= $initFile.$middleFileDaily."]";
 			$jointFileDaily .= ($r != count($newResults)-1) ? "," : "";
+
+			$jointFileDeaths .= $initFile.$middleFileDeaths."]";
+			$jointFileDeaths .= ($r != count($newResults)-1) ? "," : "";
+			$jointFileKillAssists .= $initFile.$middleFileKillAssists."]";
+			$jointFileKillAssists .= ($r != count($newResults)-1) ? "," : "";
+			$jointFileKdr .= $initFile.$middleFileKdr."]";
+			$jointFileKdr .= ($r != count($newResults)-1) ? "," : "";
 		}
 		// print_r($r."--".count($newResults));
 		// var_dump($jointFileTotal);
@@ -65,6 +98,13 @@ function adicionaDiario($dataArrayToProccess, $nomeSoldados) {
 	file_put_contents('./data/chart-daily.js', $chartDaily, LOCK_EX);
 	$chartTotal = $jsVariableTotal.$jointFileTotal."];";
 	file_put_contents('./data/chart-total.js', $chartTotal, LOCK_EX);
+
+	$chartDeaths = $jsVariableDeaths.$jointFileDeaths."];";
+	file_put_contents('./data/chart-deaths.js', $chartDeaths, LOCK_EX);
+	$chartKillAssists = $jsVariableKillAssists.$jointFileKillAssists."];";
+	file_put_contents('./data/chart-killAssists.js', $chartKillAssists, LOCK_EX);
+	$chartKdr = $jsVariableKdr.$jointFileKdr."];";
+	file_put_contents('./data/chart-kdr.js', $chartKdr, LOCK_EX);
 }
 
 function convertSoldier($jsonSoldier,$soldier){
@@ -119,9 +159,21 @@ for ($i=0; $i < count($soldados); $i++) {
 	file_put_contents($fileLog, $response, LOCK_EX);
 	$fileArray = json_decode($response);
 	$arraySoldados[0][$soldados[$i]["displayName"]] = $fileArray->result->basicStats->kills;
+	// $deathSoldados[0][$soldados[$i]["displayName"]] = $fileArray->result->basicStats->deaths;
+	// $killAssists[0][$soldados[$i]["displayName"]] = $fileArray->result->basicStats->killAssists;
+	// $kdr[0][$soldados[$i]["displayName"]] = $fileArray->result->basicStats->kdr;
+	
+	$newArraySoldados[0][$soldados[$i]["displayName"]]["kills"] = $fileArray->result->basicStats->kills;
+	$newArraySoldados[0][$soldados[$i]["displayName"]]["deaths"] = $fileArray->result->basicStats->deaths;
+	$newArraySoldados[0][$soldados[$i]["displayName"]]["killAssists"] = $fileArray->result->killAssists;
+	$newArraySoldados[0][$soldados[$i]["displayName"]]["kdr"] = $fileArray->result->kdr;
 	print_r("<hr>");
 }
-adicionaDiario($arraySoldados[0],$soldados);
+var_dump($newArraySoldados);
+	print_r("<hr>");
+	print_r("<hr>");
+// adicionaDiario($soldados, $arraySoldados[0]);
+adicionaDiario($soldados, $newArraySoldados[0]);
 
 
 for ($i=0; $i < count($soldados); $i++) { 
@@ -144,6 +196,6 @@ for ($i=0; $i < count($soldados); $i++) {
 	$response = curl_exec($curl);
 	$err = curl_error($curl);
 	curl_close($curl);	
-	convertSoldier($response,$soldados[$i]["displayName"]);
+	// convertSoldier($response,$soldados[$i]["displayName"]);
 }
 

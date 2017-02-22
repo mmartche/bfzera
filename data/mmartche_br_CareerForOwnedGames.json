@@ -1,0 +1,1291 @@
+{
+    "successful": true,
+    "result": {
+        "highlights": [],
+        "emblem": "https://eaassets-a.akamaihd.net/battlelog/bf-emblems/prod_default/ugc/11/386/1005072521/[SIZE].[FORMAT]?v=1479386248",
+        "gameStats": {
+            "tunguska": {
+                "completion": [
+                    {
+                        "name": "DOG TAGS",
+                        "progress": {
+                            "current": 32,
+                            "total": 153
+                        },
+                        "rank": null
+                    },
+                    {
+                        "name": "WEAPONS",
+                        "progress": {
+                            "current": 87,
+                            "total": 132
+                        },
+                        "rank": null
+                    },
+                    {
+                        "name": "GADGETS",
+                        "progress": {
+                            "current": 20,
+                            "total": 24
+                        },
+                        "rank": null
+                    },
+                    {
+                        "name": "VEHICLES",
+                        "progress": {
+                            "current": 0,
+                            "total": 33
+                        },
+                        "rank": null
+                    },
+                    {
+                        "name": "MEDALS",
+                        "progress": {
+                            "current": 3,
+                            "total": 34
+                        },
+                        "rank": null
+                    },
+                    {
+                        "name": "CODEX",
+                        "progress": {
+                            "current": 96,
+                            "total": 198
+                        },
+                        "rank": null
+                    }
+                ],
+                "equippedDogtags": [
+                    {
+                        "name": "Royal Order of the Stag Front Side",
+                        "description": "Awarded for obtaining the Royal Order of the Stag.",
+                        "index": 35,
+                        "imageUrl": "[BB_PREFIX]/gamedata/tunguska/df036-ea76696f.png",
+                        "unlockId": "df036",
+                        "category": "DTC_Medals",
+                        "progression": null,
+                        "equipped": true,
+                        "tagType": {
+                            "value": 0,
+                            "name": "Basic",
+                            "originalName": "BASIC"
+                        },
+                        "images": {
+                            "Png160xANY": "[BB_PREFIX]/gamedata/tunguska/df036-ea76696f.png",
+                            "Small": "[BB_PREFIX]/gamedata/tunguska/df036-ea76696f.png"
+                        },
+                        "timesTaken": 0
+                    },
+                    {
+                        "name": "Model 10-A Back Side",
+                        "description": "Awarded for obtaining 100 kills with the Model 10-A.",
+                        "index": 5,
+                        "imageUrl": "[BB_PREFIX]/gamedata/tunguska/db004-ccb1035c.png",
+                        "unlockId": "db005",
+                        "category": "DTC_Weapons",
+                        "progression": null,
+                        "equipped": true,
+                        "tagType": {
+                            "value": 1,
+                            "name": "Advanced",
+                            "originalName": "ADVANCED"
+                        },
+                        "images": {
+                            "Png160xANY": "[BB_PREFIX]/gamedata/tunguska/db004-ccb1035c.png",
+                            "Small": "[BB_PREFIX]/gamedata/tunguska/db004-ccb1035c.png"
+                        },
+                        "timesTaken": 0
+                    }
+                ],
+                "highlights": [
+                    {
+                        "value": "151",
+                        "highlightName": "Top Headshot",
+                        "highlightType": "headshots",
+                        "itemId": "BA5E14FF-D373-4927-9D0F-11CD9423AE4B",
+                        "name": "M1903 Sniper",
+                        "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/SpringfieldM1903-d13fa079.png",
+                        "highlightText": "headshots",
+                        "highlightDetails": {
+                            "progression": {
+                                "valueNeeded": 3,
+                                "valueAcquired": 10,
+                                "unlocked": true,
+                                "_passthroughFields": {}
+                            },
+                            "stats": {
+                                "values": {
+                                    "kills": 476,
+                                    "headshots": 151,
+                                    "accuracy": 32.1,
+                                    "seconds": 58296.9,
+                                    "hits": 1081,
+                                    "shots": 3371
+                                }
+                            },
+                            "star": {
+                                "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                "timesAquired": 4,
+                                "images": {
+                                    "Png180xANY": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                    "Small": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png"
+                                },
+                                "progression": {
+                                    "valueNeeded": 100,
+                                    "valueAcquired": 400,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                }
+                            },
+                            "kitRank": null
+                        }
+                    },
+                    {
+                        "value": "28",
+                        "highlightName": "Top Vehicle",
+                        "highlightType": "vehicle",
+                        "itemId": "12689F49-C72C-6BFE-07E9-A26258C0FCA0",
+                        "name": "Fortress Gun",
+                        "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Icons/HudIcons/Vehicles/FRAFortressTurret-4b19d879.png",
+                        "highlightText": "kills",
+                        "highlightDetails": {
+                            "progression": null,
+                            "stats": {
+                                "values": {
+                                    "seconds": 1887.99,
+                                    "kills": 28,
+                                    "destroyed": 3
+                                }
+                            },
+                            "star": null,
+                            "kitRank": null
+                        }
+                    },
+                    {
+                        "value": 100,
+                        "highlightName": "Accuracy",
+                        "highlightType": "accuracy",
+                        "itemId": "4E40014C-B574-41A7-AF7C-8FE4556AC201",
+                        "name": "Bayonet Charge",
+                        "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Gadgets/Lineart/GadgetBayonet-9828c811.png",
+                        "highlightText": "%",
+                        "highlightDetails": {
+                            "progression": {
+                                "valueNeeded": 0,
+                                "valueAcquired": 0,
+                                "unlocked": true,
+                                "_passthroughFields": {}
+                            },
+                            "stats": {
+                                "values": {
+                                    "kills": 79,
+                                    "headshots": 0,
+                                    "accuracy": 100,
+                                    "seconds": 0,
+                                    "hits": 81,
+                                    "shots": 0
+                                }
+                            },
+                            "star": null,
+                            "kitRank": null
+                        }
+                    },
+                    {
+                        "value": "73",
+                        "highlightName": "Top Gadget",
+                        "highlightType": "gadget",
+                        "itemId": "02D4481F-FBC3-4C57-AAAC-1B37DC92751E",
+                        "name": "Crossbow Launcher — FRG",
+                        "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/crossbow-94dcf875.png",
+                        "highlightText": "kills",
+                        "highlightDetails": {
+                            "progression": {
+                                "valueNeeded": 0,
+                                "valueAcquired": 10,
+                                "unlocked": true,
+                                "_passthroughFields": {}
+                            },
+                            "stats": {
+                                "values": {
+                                    "kills": 73,
+                                    "headshots": 0,
+                                    "accuracy": 28.4,
+                                    "seconds": 3018.68,
+                                    "hits": 184,
+                                    "shots": 648
+                                }
+                            },
+                            "star": null,
+                            "kitRank": null
+                        }
+                    },
+                    {
+                        "value": "45",
+                        "highlightName": "Top Vehicle",
+                        "highlightType": "vehicleCategory",
+                        "itemId": "STATIONARY WEAPON",
+                        "name": "STATIONARY WEAPON",
+                        "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Icons/HudIcons/Vehicles/FRAFortressTurret-4b19d879.png",
+                        "highlightText": "kills",
+                        "highlightDetails": {
+                            "progression": null,
+                            "stats": {
+                                "values": {
+                                    "seconds": 3710.9300000000003,
+                                    "kills": 45,
+                                    "destroyed": 5
+                                }
+                            },
+                            "star": null,
+                            "kitRank": null
+                        }
+                    },
+                    {
+                        "value": "928",
+                        "highlightName": "Top Weapon",
+                        "highlightType": "weapon",
+                        "itemId": "FFD12D82-9187-4F1A-823F-0F61E766EC98",
+                        "name": "MG15 n.A. Storm",
+                        "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/Bergmann1915MG-5548839d.png",
+                        "highlightText": "kills",
+                        "highlightDetails": {
+                            "progression": {
+                                "valueNeeded": 2,
+                                "valueAcquired": 10,
+                                "unlocked": true,
+                                "_passthroughFields": {}
+                            },
+                            "stats": {
+                                "values": {
+                                    "kills": 928,
+                                    "headshots": 95,
+                                    "accuracy": 15.5,
+                                    "seconds": 50624.3,
+                                    "hits": 5278,
+                                    "shots": 34029
+                                }
+                            },
+                            "star": {
+                                "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                "timesAquired": 9,
+                                "images": {
+                                    "Png180xANY": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                    "Small": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png"
+                                },
+                                "progression": {
+                                    "valueNeeded": 100,
+                                    "valueAcquired": 900,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                }
+                            },
+                            "kitRank": null
+                        }
+                    },
+                    {
+                        "value": "63",
+                        "highlightName": "Top Sidearm",
+                        "highlightType": "sidearm",
+                        "itemId": "FAE1EA24-DFBE-3E0A-E525-BC20340FE196",
+                        "name": "Frommer Stop",
+                        "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/FrommerStopAuto-27e2bc3f.png",
+                        "highlightText": "kills",
+                        "highlightDetails": {
+                            "progression": {
+                                "valueNeeded": 0,
+                                "valueAcquired": 10,
+                                "unlocked": true,
+                                "_passthroughFields": {}
+                            },
+                            "stats": {
+                                "values": {
+                                    "kills": 63,
+                                    "headshots": 6,
+                                    "accuracy": 20.1,
+                                    "seconds": 3451.76,
+                                    "hits": 300,
+                                    "shots": 1492
+                                }
+                            },
+                            "star": null,
+                            "kitRank": null
+                        }
+                    },
+                    {
+                        "value": 650780,
+                        "kitId": "Support",
+                        "highlightName": "Top Class",
+                        "highlightType": "kit",
+                        "itemId": null,
+                        "name": "SUPPORT",
+                        "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Icons/HudIcons/KitIcons/Large/KitIconSupportLarge-17c34ab8.png",
+                        "highlightText": "score",
+                        "highlightDetails": {
+                            "progression": null,
+                            "stats": null,
+                            "star": null,
+                            "kitRank": {
+                                "kitName": "support",
+                                "thresholds": [
+                                    50000,
+                                    50000
+                                ],
+                                "actualValue": 650780,
+                                "rank": 10
+                            }
+                        }
+                    },
+                    {
+                        "value": "928",
+                        "highlightName": "Top Primary",
+                        "highlightType": "primary",
+                        "itemId": "FFD12D82-9187-4F1A-823F-0F61E766EC98",
+                        "name": "MG15 n.A. Storm",
+                        "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/Bergmann1915MG-5548839d.png",
+                        "highlightText": "kills",
+                        "highlightDetails": {
+                            "progression": {
+                                "valueNeeded": 2,
+                                "valueAcquired": 10,
+                                "unlocked": true,
+                                "_passthroughFields": {}
+                            },
+                            "stats": {
+                                "values": {
+                                    "kills": 928,
+                                    "headshots": 95,
+                                    "accuracy": 15.5,
+                                    "seconds": 50624.3,
+                                    "hits": 5278,
+                                    "shots": 34029
+                                }
+                            },
+                            "star": {
+                                "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                "timesAquired": 9,
+                                "images": {
+                                    "Png180xANY": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                    "Small": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png"
+                                },
+                                "progression": {
+                                    "valueNeeded": 100,
+                                    "valueAcquired": 900,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                }
+                            },
+                            "kitRank": null
+                        }
+                    }
+                ],
+                "highlightsByType": {
+                    "headshots": [
+                        {
+                            "value": "151",
+                            "highlightName": "Top Headshot",
+                            "highlightType": "headshots",
+                            "itemId": "BA5E14FF-D373-4927-9D0F-11CD9423AE4B",
+                            "name": "M1903 Sniper",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/SpringfieldM1903-d13fa079.png",
+                            "highlightText": "headshots",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 3,
+                                    "valueAcquired": 10,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 476,
+                                        "headshots": 151,
+                                        "accuracy": 32.1,
+                                        "seconds": 58296.9,
+                                        "hits": 1081,
+                                        "shots": 3371
+                                    }
+                                },
+                                "star": {
+                                    "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                    "timesAquired": 4,
+                                    "images": {
+                                        "Png180xANY": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                        "Small": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png"
+                                    },
+                                    "progression": {
+                                        "valueNeeded": 100,
+                                        "valueAcquired": 400,
+                                        "unlocked": true,
+                                        "_passthroughFields": {}
+                                    }
+                                },
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "95",
+                            "highlightName": "Top Headshot",
+                            "highlightType": "headshots",
+                            "itemId": "FFD12D82-9187-4F1A-823F-0F61E766EC98",
+                            "name": "MG15 n.A. Storm",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/Bergmann1915MG-5548839d.png",
+                            "highlightText": "headshots",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 2,
+                                    "valueAcquired": 10,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 928,
+                                        "headshots": 95,
+                                        "accuracy": 15.5,
+                                        "seconds": 50624.3,
+                                        "hits": 5278,
+                                        "shots": 34029
+                                    }
+                                },
+                                "star": {
+                                    "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                    "timesAquired": 9,
+                                    "images": {
+                                        "Png180xANY": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                        "Small": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png"
+                                    },
+                                    "progression": {
+                                        "valueNeeded": 100,
+                                        "valueAcquired": 900,
+                                        "unlocked": true,
+                                        "_passthroughFields": {}
+                                    }
+                                },
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "67",
+                            "highlightName": "Top Headshot",
+                            "highlightType": "headshots",
+                            "itemId": "2F0B54CD-CA30-4E9C-9384-5E967C478845",
+                            "name": "MG15 n.A. Suppressive",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/Bergmann1915MG-5548839d.png",
+                            "highlightText": "headshots",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 3,
+                                    "valueAcquired": 10,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 700,
+                                        "headshots": 67,
+                                        "accuracy": 14.9,
+                                        "seconds": 42549.5,
+                                        "hits": 4595,
+                                        "shots": 30779
+                                    }
+                                },
+                                "star": {
+                                    "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                    "timesAquired": 7,
+                                    "images": {
+                                        "Png180xANY": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                        "Small": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png"
+                                    },
+                                    "progression": {
+                                        "valueNeeded": 100,
+                                        "valueAcquired": 700,
+                                        "unlocked": true,
+                                        "_passthroughFields": {}
+                                    }
+                                },
+                                "kitRank": null
+                            }
+                        }
+                    ],
+                    "vehicle": [
+                        {
+                            "value": "28",
+                            "highlightName": "Top Vehicle",
+                            "highlightType": "vehicle",
+                            "itemId": "12689F49-C72C-6BFE-07E9-A26258C0FCA0",
+                            "name": "Fortress Gun",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Icons/HudIcons/Vehicles/FRAFortressTurret-4b19d879.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": null,
+                                "stats": {
+                                    "values": {
+                                        "seconds": 1887.99,
+                                        "kills": 28,
+                                        "destroyed": 3
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "17",
+                            "highlightName": "Top Vehicle",
+                            "highlightType": "vehicle",
+                            "itemId": "1A7DEECF-4F0E-E343-9644-D6D91DCAEC12",
+                            "name": "Airship L30",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Icons/HudIcons/Vehicles/GERZeppelinL30-66f8047f.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": null,
+                                "stats": {
+                                    "values": {
+                                        "seconds": 1420.79,
+                                        "kills": 17,
+                                        "destroyed": 1
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "14",
+                            "highlightName": "Top Vehicle",
+                            "highlightType": "vehicle",
+                            "itemId": "4AA28E71-6FDA-A50B-80A8-B52D070FF884",
+                            "name": "A7V Heavy Tank",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Deploy/Vehicles/Tank-Heavy-5921b6da.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": null,
+                                "stats": {
+                                    "values": {
+                                        "seconds": 4193.07,
+                                        "kills": 14,
+                                        "destroyed": 0
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        }
+                    ],
+                    "accuracy": [
+                        {
+                            "value": 100,
+                            "highlightName": "Accuracy",
+                            "highlightType": "accuracy",
+                            "itemId": "4E40014C-B574-41A7-AF7C-8FE4556AC201",
+                            "name": "Bayonet Charge",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Gadgets/Lineart/GadgetBayonet-9828c811.png",
+                            "highlightText": "%",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 0,
+                                    "valueAcquired": 0,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 79,
+                                        "headshots": 0,
+                                        "accuracy": 100,
+                                        "seconds": 0,
+                                        "hits": 81,
+                                        "shots": 0
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": 100,
+                            "highlightName": "Accuracy",
+                            "highlightType": "accuracy",
+                            "itemId": "F1A70E1E-8A1A-406F-B9EC-DA388A690513",
+                            "name": "Pickaxe",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Gadgets/Lineart/GadgetPickAxe-4f7282fb.png",
+                            "highlightText": "%",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 2,
+                                    "valueAcquired": 6,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 1,
+                                        "headshots": 0,
+                                        "accuracy": 100,
+                                        "seconds": 2.13,
+                                        "hits": 1,
+                                        "shots": 1
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": 100,
+                            "highlightName": "Accuracy",
+                            "highlightType": "accuracy",
+                            "itemId": "8219207A-41E6-4ED2-A3E8-9690752EC40C",
+                            "name": "Incendiary Grenade",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Gadgets/Lineart/GadgetIncindiary-838cdfdb.png",
+                            "highlightText": "%",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 0,
+                                    "valueAcquired": 0,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 74,
+                                        "headshots": 0,
+                                        "accuracy": 100,
+                                        "seconds": 350.94,
+                                        "hits": 955,
+                                        "shots": 622
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        }
+                    ],
+                    "gadget": [
+                        {
+                            "value": "73",
+                            "highlightName": "Top Gadget",
+                            "highlightType": "gadget",
+                            "itemId": "02D4481F-FBC3-4C57-AAAC-1B37DC92751E",
+                            "name": "Crossbow Launcher — FRG",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/crossbow-94dcf875.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 0,
+                                    "valueAcquired": 10,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 73,
+                                        "headshots": 0,
+                                        "accuracy": 28.4,
+                                        "seconds": 3018.68,
+                                        "hits": 184,
+                                        "shots": 648
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "46",
+                            "highlightName": "Top Gadget",
+                            "highlightType": "gadget",
+                            "itemId": "C71A02C3-608E-42AA-9179-A4324A4D4539",
+                            "name": "Mortar — AIR",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Gadgets/Lineart/MortarAirburst-d1a2e2ce.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 0,
+                                    "valueAcquired": 0,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 46,
+                                        "headshots": 0,
+                                        "accuracy": 0,
+                                        "seconds": 5309.02,
+                                        "hits": 0,
+                                        "shots": 245,
+                                        "destroyed": 0
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "28",
+                            "highlightName": "Top Gadget",
+                            "highlightType": "gadget",
+                            "itemId": "BE041F1A-460B-4FD5-9E4B-F1C803C0F42F",
+                            "name": "AT Rocket Gun",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Gadgets/Lineart/GadgetBreechgun-13a63aef.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 0,
+                                    "valueAcquired": 6,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 28,
+                                        "headshots": 0,
+                                        "accuracy": 30,
+                                        "seconds": 2733.86,
+                                        "hits": 84,
+                                        "shots": 280
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        }
+                    ],
+                    "vehicleCategory": [
+                        {
+                            "value": "45",
+                            "highlightName": "Top Vehicle",
+                            "highlightType": "vehicleCategory",
+                            "itemId": "STATIONARY WEAPON",
+                            "name": "STATIONARY WEAPON",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Icons/HudIcons/Vehicles/FRAFortressTurret-4b19d879.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": null,
+                                "stats": {
+                                    "values": {
+                                        "seconds": 3710.9300000000003,
+                                        "kills": 45,
+                                        "destroyed": 5
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "22",
+                            "highlightName": "Top Vehicle",
+                            "highlightType": "vehicleCategory",
+                            "itemId": "BEHEMOTH",
+                            "name": "BEHEMOTH",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Icons/HudIcons/Vehicles/GERZeppelinL30-66f8047f.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": null,
+                                "stats": {
+                                    "values": {
+                                        "seconds": 2198.39,
+                                        "kills": 22,
+                                        "destroyed": 3
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "14",
+                            "highlightName": "Top Vehicle",
+                            "highlightType": "vehicleCategory",
+                            "itemId": "HEAVY TANK",
+                            "name": "HEAVY TANK",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Deploy/Vehicles/Tank-Heavy-5921b6da.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": null,
+                                "stats": {
+                                    "values": {
+                                        "seconds": 4193.07,
+                                        "kills": 14,
+                                        "destroyed": 0
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        }
+                    ],
+                    "weapon": [
+                        {
+                            "value": "928",
+                            "highlightName": "Top Weapon",
+                            "highlightType": "weapon",
+                            "itemId": "FFD12D82-9187-4F1A-823F-0F61E766EC98",
+                            "name": "MG15 n.A. Storm",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/Bergmann1915MG-5548839d.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 2,
+                                    "valueAcquired": 10,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 928,
+                                        "headshots": 95,
+                                        "accuracy": 15.5,
+                                        "seconds": 50624.3,
+                                        "hits": 5278,
+                                        "shots": 34029
+                                    }
+                                },
+                                "star": {
+                                    "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                    "timesAquired": 9,
+                                    "images": {
+                                        "Png180xANY": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                        "Small": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png"
+                                    },
+                                    "progression": {
+                                        "valueNeeded": 100,
+                                        "valueAcquired": 900,
+                                        "unlocked": true,
+                                        "_passthroughFields": {}
+                                    }
+                                },
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "700",
+                            "highlightName": "Top Weapon",
+                            "highlightType": "weapon",
+                            "itemId": "2F0B54CD-CA30-4E9C-9384-5E967C478845",
+                            "name": "MG15 n.A. Suppressive",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/Bergmann1915MG-5548839d.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 3,
+                                    "valueAcquired": 10,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 700,
+                                        "headshots": 67,
+                                        "accuracy": 14.9,
+                                        "seconds": 42549.5,
+                                        "hits": 4595,
+                                        "shots": 30779
+                                    }
+                                },
+                                "star": {
+                                    "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                    "timesAquired": 7,
+                                    "images": {
+                                        "Png180xANY": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                        "Small": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png"
+                                    },
+                                    "progression": {
+                                        "valueNeeded": 100,
+                                        "valueAcquired": 700,
+                                        "unlocked": true,
+                                        "_passthroughFields": {}
+                                    }
+                                },
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "476",
+                            "highlightName": "Top Weapon",
+                            "highlightType": "weapon",
+                            "itemId": "BA5E14FF-D373-4927-9D0F-11CD9423AE4B",
+                            "name": "M1903 Sniper",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/SpringfieldM1903-d13fa079.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 3,
+                                    "valueAcquired": 10,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 476,
+                                        "headshots": 151,
+                                        "accuracy": 32.1,
+                                        "seconds": 58296.9,
+                                        "hits": 1081,
+                                        "shots": 3371
+                                    }
+                                },
+                                "star": {
+                                    "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                    "timesAquired": 4,
+                                    "images": {
+                                        "Png180xANY": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                        "Small": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png"
+                                    },
+                                    "progression": {
+                                        "valueNeeded": 100,
+                                        "valueAcquired": 400,
+                                        "unlocked": true,
+                                        "_passthroughFields": {}
+                                    }
+                                },
+                                "kitRank": null
+                            }
+                        }
+                    ],
+                    "sidearm": [
+                        {
+                            "value": "63",
+                            "highlightName": "Top Sidearm",
+                            "highlightType": "sidearm",
+                            "itemId": "FAE1EA24-DFBE-3E0A-E525-BC20340FE196",
+                            "name": "Frommer Stop",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/FrommerStopAuto-27e2bc3f.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 0,
+                                    "valueAcquired": 10,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 63,
+                                        "headshots": 6,
+                                        "accuracy": 20.1,
+                                        "seconds": 3451.76,
+                                        "hits": 300,
+                                        "shots": 1492
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "15",
+                            "highlightName": "Top Sidearm",
+                            "highlightType": "sidearm",
+                            "itemId": "447B3866-1241-42D7-8AB2-384727CFE624",
+                            "name": "Auto Revolver",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/WebleyFosberyAutoRevolver-7d699f01.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 0,
+                                    "valueAcquired": 6,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 15,
+                                        "headshots": 3,
+                                        "accuracy": 16.4,
+                                        "seconds": 787.2,
+                                        "hits": 36,
+                                        "shots": 219
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "11",
+                            "highlightName": "Top Sidearm",
+                            "highlightType": "sidearm",
+                            "itemId": "3CE86D7C-9951-4B25-9FD6-A97CA94F4A20",
+                            "name": "M1911",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/Colt1911-01bc96ad.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 0,
+                                    "valueAcquired": 0,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 11,
+                                        "headshots": 3,
+                                        "accuracy": 12.6,
+                                        "seconds": 651.74,
+                                        "hits": 31,
+                                        "shots": 246
+                                    }
+                                },
+                                "star": null,
+                                "kitRank": null
+                            }
+                        }
+                    ],
+                    "kit": [
+                        {
+                            "value": 650780,
+                            "kitId": "Support",
+                            "highlightName": "Top Class",
+                            "highlightType": "kit",
+                            "itemId": null,
+                            "name": "SUPPORT",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Icons/HudIcons/KitIcons/Large/KitIconSupportLarge-17c34ab8.png",
+                            "highlightText": "score",
+                            "highlightDetails": {
+                                "progression": null,
+                                "stats": null,
+                                "star": null,
+                                "kitRank": {
+                                    "kitName": "support",
+                                    "thresholds": [
+                                        50000,
+                                        50000
+                                    ],
+                                    "actualValue": 650780,
+                                    "rank": 10
+                                }
+                            }
+                        },
+                        {
+                            "value": 373520,
+                            "kitId": "Scout",
+                            "highlightName": "Top Class",
+                            "highlightType": "kit",
+                            "itemId": null,
+                            "name": "SCOUT",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Icons/HudIcons/KitIcons/Large/KitIconScoutLarge-886eef18.png",
+                            "highlightText": "score",
+                            "highlightDetails": {
+                                "progression": null,
+                                "stats": null,
+                                "star": null,
+                                "kitRank": {
+                                    "kitName": "scout",
+                                    "thresholds": [
+                                        30000,
+                                        30000
+                                    ],
+                                    "actualValue": 373520,
+                                    "rank": 10
+                                }
+                            }
+                        },
+                        {
+                            "value": 303490,
+                            "kitId": "Assault",
+                            "highlightName": "Top Class",
+                            "highlightType": "kit",
+                            "itemId": null,
+                            "name": "ASSAULT",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Icons/HudIcons/KitIcons/Large/KitIconAssaultLarge-563b3a10.png",
+                            "highlightText": "score",
+                            "highlightDetails": {
+                                "progression": null,
+                                "stats": null,
+                                "star": null,
+                                "kitRank": {
+                                    "kitName": "assault",
+                                    "thresholds": [
+                                        3490,
+                                        50000
+                                    ],
+                                    "actualValue": 303490,
+                                    "rank": 6
+                                }
+                            }
+                        }
+                    ],
+                    "primary": [
+                        {
+                            "value": "928",
+                            "highlightName": "Top Primary",
+                            "highlightType": "primary",
+                            "itemId": "FFD12D82-9187-4F1A-823F-0F61E766EC98",
+                            "name": "MG15 n.A. Storm",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/Bergmann1915MG-5548839d.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 2,
+                                    "valueAcquired": 10,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 928,
+                                        "headshots": 95,
+                                        "accuracy": 15.5,
+                                        "seconds": 50624.3,
+                                        "hits": 5278,
+                                        "shots": 34029
+                                    }
+                                },
+                                "star": {
+                                    "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                    "timesAquired": 9,
+                                    "images": {
+                                        "Png180xANY": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                        "Small": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png"
+                                    },
+                                    "progression": {
+                                        "valueNeeded": 100,
+                                        "valueAcquired": 900,
+                                        "unlocked": true,
+                                        "_passthroughFields": {}
+                                    }
+                                },
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "700",
+                            "highlightName": "Top Primary",
+                            "highlightType": "primary",
+                            "itemId": "2F0B54CD-CA30-4E9C-9384-5E967C478845",
+                            "name": "MG15 n.A. Suppressive",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/Bergmann1915MG-5548839d.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 3,
+                                    "valueAcquired": 10,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 700,
+                                        "headshots": 67,
+                                        "accuracy": 14.9,
+                                        "seconds": 42549.5,
+                                        "hits": 4595,
+                                        "shots": 30779
+                                    }
+                                },
+                                "star": {
+                                    "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                    "timesAquired": 7,
+                                    "images": {
+                                        "Png180xANY": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                        "Small": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png"
+                                    },
+                                    "progression": {
+                                        "valueNeeded": 100,
+                                        "valueAcquired": 700,
+                                        "unlocked": true,
+                                        "_passthroughFields": {}
+                                    }
+                                },
+                                "kitRank": null
+                            }
+                        },
+                        {
+                            "value": "476",
+                            "highlightName": "Top Primary",
+                            "highlightType": "primary",
+                            "itemId": "BA5E14FF-D373-4927-9D0F-11CD9423AE4B",
+                            "name": "M1903 Sniper",
+                            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Persistence/Weapons/Lineart/SpringfieldM1903-d13fa079.png",
+                            "highlightText": "kills",
+                            "highlightDetails": {
+                                "progression": {
+                                    "valueNeeded": 3,
+                                    "valueAcquired": 10,
+                                    "unlocked": true,
+                                    "_passthroughFields": {}
+                                },
+                                "stats": {
+                                    "values": {
+                                        "kills": 476,
+                                        "headshots": 151,
+                                        "accuracy": 32.1,
+                                        "seconds": 58296.9,
+                                        "hits": 1081,
+                                        "shots": 3371
+                                    }
+                                },
+                                "star": {
+                                    "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                    "timesAquired": 4,
+                                    "images": {
+                                        "Png180xANY": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png",
+                                        "Small": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Awards/ServiceStars/ServiceStar-4ef508c8.png"
+                                    },
+                                    "progression": {
+                                        "valueNeeded": 100,
+                                        "valueAcquired": 400,
+                                        "unlocked": true,
+                                        "_passthroughFields": {}
+                                    }
+                                },
+                                "kitRank": null
+                            }
+                        }
+                    ]
+                },
+                "kills": 5195,
+                "wins": 322,
+                "deaths": 5361,
+                "spm": 353.29,
+                "skill": 178.12,
+                "soldierImageUrl": null,
+                "kpm": 0.82,
+                "losses": 355,
+                "timePlayed": 381616,
+                "rank": {
+                    "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Hud/RankUpHudTextures/Rank06-5be467e5.png",
+                    "name": "Rank 53",
+                    "number": 53
+                },
+                "rankProgress": {
+                    "current": 22030,
+                    "total": 70000
+                }
+            }
+        },
+        "stats": {
+            "completion": [],
+            "equippedDogtags": null,
+            "highlights": null,
+            "highlightsByType": null,
+            "kills": 5195,
+            "wins": 322,
+            "deaths": 5361,
+            "spm": 353.29,
+            "skill": 178.12,
+            "soldierImageUrl": null,
+            "kpm": 0.82,
+            "losses": 355,
+            "timePlayed": 381616,
+            "rank": {
+                "imageUrl": null,
+                "name": "Sparta Rank 53",
+                "number": 53
+            },
+            "rankProgress": {
+                "current": 0,
+                "total": 0
+            }
+        }
+    },
+    "profile": {
+        "trackerUrl": "https://battlefieldtracker.com/bf1/profile/psn/mmartche_br",
+        "displayName": "mmartche_br",
+        "personaId": 1765944381,
+        "platform": 2
+    },
+    "bbPrefix": "https://eaassets-a.akamaihd.net/battlelog/battlebinary"
+}

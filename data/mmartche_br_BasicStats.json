@@ -1,0 +1,34 @@
+{
+    "successful": true,
+    "result": {
+        "completion": [],
+        "equippedDogtags": null,
+        "highlights": null,
+        "highlightsByType": null,
+        "kills": 5195,
+        "wins": 322,
+        "deaths": 5361,
+        "spm": 353.29,
+        "skill": 178.12,
+        "soldierImageUrl": null,
+        "kpm": 0.82,
+        "losses": 355,
+        "timePlayed": 381616,
+        "rank": {
+            "imageUrl": "[BB_PREFIX]/gamedata/tunguska/UI/Textures/Hud/RankUpHudTextures/Rank06-5be467e5.png",
+            "name": "Rank 53",
+            "number": 53
+        },
+        "rankProgress": {
+            "current": 22030,
+            "total": 70000
+        }
+    },
+    "profile": {
+        "trackerUrl": "https://battlefieldtracker.com/bf1/profile/psn/mmartche_br",
+        "displayName": "mmartche_br",
+        "personaId": 1765944381,
+        "platform": 2
+    },
+    "bbPrefix": "https://eaassets-a.akamaihd.net/battlelog/battlebinary"
+}

@@ -2,14 +2,11 @@
 var_dump(date('d/m/y h:m'));
 print_r("<hr>");
 $soldados = array(
-	["displayName"=>"FARRELL_E_TALITA",	"platform"=>"3"],
+	["displayName"=>"FARRELL_E_TALITA",	"platform"=>"2"],
 	["displayName"=>"mmartche_br",		"platform"=>"2"],
 	["displayName"=>"nderato",			"platform"=>"2"],
 	["displayName"=>"thiagossegatto",	"platform"=>"2"],
-	["displayName"=>"UrsoYogi",			"platform"=>"3"],
-	["displayName"=>"Valdeirsilva12",	"platform"=>"1"],
-	["displayName"=>"RenanKillRJ",		"platform"=>"2"],
-	["displayName"=>"CVL-ziG",			"platform"=>"3"]
+	["displayName"=>"RenanKillRJ",		"platform"=>"2"]
 	);
 
 $arraySoldados = array([
@@ -18,10 +15,7 @@ $arraySoldados = array([
 	"mmartche_br"		=>"0", 
 	"nderato" 			=>"0", 
 	"thiagossegatto" 	=>"0", 
-	"UrsoYogi"			=>"0", 
-	"Valdeirsilva12"	=>"0",
-	"RenanKillRJ"		=>"0",
-	"CVL-ziG"			=>"0"
+	"RenanKillRJ"		=>"0"
 	]);
 $newArraySoldados = array([
 	"date" => date('d/m/y')

@@ -73,9 +73,9 @@ function adicionaDiario($nomeSoldados, $dailyToProccess) {
 					// $middleFileKdr .= ",".((float)$newResults[$r]->$nome->kdr);
 					$kdKills  = ($newResults[$r]->$nome->kills > 0) ? (int)$newResults[$r]->$nome->kills : "1";
 					$kdDeaths = ($newResults[$r]->$nome->deaths > 0) ? (int)$newResults[$r]->$nome->deaths : "1";
-					$middleFileKdr .= ",".(float)($kdKills / $kdDeaths);
+					$middleFileKdr .= ",".(float)(($kdKills / $kdDeaths) - $lastKdr[$nome]);
 					// $lastKdr[$nome] = (float)$newResults[$r]->$nome->kdr;
-					$lastKdr[$nome] = (float)($kdKills / $kdDeaths);
+					$lastKdr[$nome] = number_format(($kdKills / $kdDeaths),"2");
 				}
 			}
 		}

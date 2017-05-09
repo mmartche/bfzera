@@ -13,7 +13,8 @@ function drawChart() {
       title: ''
     },
     vAxis: {
-      title: 'raddas'
+      title: 'raddas',
+      format: 'decimal'
     },
         colors: ['#a52714', 'yellow', 'blue', '#000000', 'green', '#ccc' ,'black', 'pink']
   };

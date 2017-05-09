@@ -28,7 +28,7 @@ function drawChart() {
     raddasTotal.addRows(dadosRaddaTotal);
   var chart = new google.charts.Line(document.getElementById('raddasTotal'));
   chart.draw(raddasTotal, options);
-/*
+
     var raddasPerDay = new google.visualization.DataTable();
       raddasPerDay.addColumn('string', '');
       raddasPerDay.addColumn('number', 'FARRELL_E_TALITA');
@@ -61,7 +61,7 @@ function drawChart() {
     raddasKillAssists.addRows(dadosRaddaKillAssists);
     var chartRaddaKillAssists = new google.charts.Line(document.getElementById('raddasKillAssists'));
     chartRaddaKillAssists.draw(raddasKillAssists, options);
-*/
+
     var raddasKdr = new google.visualization.DataTable();
       raddasKdr.addColumn('string', '');
       raddasKdr.addColumn('number', 'FARRELL_E_TALITA');

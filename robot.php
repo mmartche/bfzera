@@ -62,18 +62,22 @@ function adicionaDiario($nomeSoldados, $dailyToProccess) {
 					$lastKdr[$nome] = (float)$kdKills / $kdDeaths;
 				} else {
 					$middleFileDaily .= ",".((int)$newResults[$r]->$nome->kills - $lastKill[$nome]);
+					$middleKdKills = ((int)$newResults[$r]->$nome->kills - $lastKill[$nome]);
 					$lastKill[$nome] = (int)$newResults[$r]->$nome->kills;
 
 					$middleFileDeaths .= ",".((int)$newResults[$r]->$nome->deaths - $lastDeaths[$nome]);
+					$middleKdDeaths = ((int)$newResults[$r]->$nome->deaths - $lastDeaths[$nome]);
 					$lastDeaths[$nome] = (int)$newResults[$r]->$nome->deaths;
 
 					$middleFileKillAssists .= ",".((int)$newResults[$r]->$nome->killAssists - $lastKillAssists[$nome]);
 					$lastKillAssists[$nome] = (int)$newResults[$r]->$nome->killAssists;
 
+
 					// $middleFileKdr .= ",".((float)$newResults[$r]->$nome->kdr);
-					$kdKills  = ($newResults[$r]->$nome->kills > 0) ? (int)$newResults[$r]->$nome->kills : "1";
-					$kdDeaths = ($newResults[$r]->$nome->deaths > 0) ? (int)$newResults[$r]->$nome->deaths : "1";
-					$middleFileKdr .= ",".(float)(($kdKills / $kdDeaths) - $lastKdr[$nome]);
+					$kdKills  = ($middleKdKills > 0) ? $middleKdKills : "0";
+					$kdDeaths = ($middleKdDeaths > 0) ? $middleKdDeaths : "1";
+					$middleFileKdr .= ",".(float)(($kdKills / $kdDeaths));
+					 // - $lastKdr[$nome]);
 					// $lastKdr[$nome] = (float)$newResults[$r]->$nome->kdr;
 					$lastKdr[$nome] = number_format(($kdKills / $kdDeaths),"2");
 				}
@@ -81,6 +85,10 @@ function adicionaDiario($nomeSoldados, $dailyToProccess) {
 		}
 		$jointFileTotal .= $initFile.$middleFile."]";
 		$jointFileTotal .= ($r != count($newResults)-1) ? "," : "";
+		$jointFileDaily = empty($jointFileDaily) ? "" : $jointFileDaily;
+		$jointFileKillAssists = empty($jointFileKillAssists) ? "" : $jointFileKillAssists;
+		$jointFileDeaths = empty($jointFileDeaths) ? "" : $jointFileDeaths;
+		$jointFileKdr = empty($jointFileKdr) ? "" : $jointFileKdr;
 		if ($r > 0) {
 			$jointFileDaily .= $initFile.$middleFileDaily."]";
 			$jointFileDaily .= ($r != count($newResults)-1) ? "," : "";

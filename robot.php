@@ -57,7 +57,9 @@ function adicionaDiario($nomeSoldados, $dailyToProccess) {
 					$lastDeaths[$nome] = (int)$newResults[$r]->$nome->deaths;
 					$lastKillAssists[$nome] = (int)$newResults[$r]->$nome->killAssists;
 					// $lastKdr[$nome] = (int)$newResults[$r]->$nome->kdr;
-					$lastKdr[$nome] = (int)$newResults[$r]->$nome->kills / (int)$newResults[$r]->$nome->deaths;
+					$kdKills  = ($newResults[$r]->$nome->kills > 0) ? (int)$newResults[$r]->$nome->kills : "1";
+					$kdDeaths = ($newResults[$r]->$nome->deaths > 0) ? (int)$newResults[$r]->$nome->deaths : "1";
+					$lastKdr[$nome] = (float)$kdKills / $kdDeaths;
 				} else {
 					$middleFileDaily .= ",".((int)$newResults[$r]->$nome->kills - $lastKill[$nome]);
 					$lastKill[$nome] = (int)$newResults[$r]->$nome->kills;
@@ -69,9 +71,11 @@ function adicionaDiario($nomeSoldados, $dailyToProccess) {
 					$lastKillAssists[$nome] = (int)$newResults[$r]->$nome->killAssists;
 
 					// $middleFileKdr .= ",".((float)$newResults[$r]->$nome->kdr);
-					$middleFileKdr .= ",".(float)((int)$newResults[$r]->$nome->kills / (int)$newResults[$r]->$nome->deaths);
+					$kdKills  = ($newResults[$r]->$nome->kills > 0) ? (int)$newResults[$r]->$nome->kills : "1";
+					$kdDeaths = ($newResults[$r]->$nome->deaths > 0) ? (int)$newResults[$r]->$nome->deaths : "1";
+					$middleFileKdr .= ",".(float)($kdKills / $kdDeaths);
 					// $lastKdr[$nome] = (float)$newResults[$r]->$nome->kdr;
-					$lastKdr[$nome] = (float)((int)$newResults[$r]->$nome->kills / (int)$newResults[$r]->$nome->deaths);
+					$lastKdr[$nome] = (float)($kdKills / $kdDeaths);
 				}
 			}
 		}

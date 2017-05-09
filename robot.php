@@ -5,7 +5,8 @@ $soldados = array(
 	["displayName"=>"FARRELL_E_TALITA",	"platform"=>"2"],
 	["displayName"=>"mmartche_br",		"platform"=>"2"],
 	["displayName"=>"nderato",			"platform"=>"2"],
-	["displayName"=>"thiagossegatto",	"platform"=>"2"]
+	["displayName"=>"thiagossegatto",	"platform"=>"2"],
+	["displayName"=>"RenanKillRJ",	"platform"=>"2"]
 	);
 
 $arraySoldados = array([
@@ -13,7 +14,8 @@ $arraySoldados = array([
 	"FARRELL_E_TALITA"	=>"0",
 	"mmartche_br"		=>"0", 
 	"nderato" 			=>"0", 
-	"thiagossegatto" 	=>"0"
+	"thiagossegatto" 	=>"0",
+	"RenanKillRJ"		=>"0"
 	]);
 $newArraySoldados = array([
 	"date" => date('d/m/y')

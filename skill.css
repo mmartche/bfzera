@@ -1,19 +1,10 @@
-.pieChart {
-	float: left;
-}
-.raddasPerClass {
-	border: 1px solid;
-}
-.pieChart path {
-  stroke: #fff;
-  stroke-width: 2;
-}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: 400;
   background-color: #fff;
-  
+  width: 1000px;
+  height: 700px;
   margin-top: 10px;
 }
 #skillmap .skills-wrapper {

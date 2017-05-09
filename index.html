@@ -3,30 +3,29 @@
 		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 		<script src="//d3js.org/d3.v3.min.js"></script>
 		<script src="./chart-daily.js"></script>
-		<script src="./data/chart-daily.js"></script>
-		<script src="./data/chart-deaths.js"></script>
-		<script src="./data/chart-killAssists.js"></script>
-		<script src="./data/chart-kdr.js"></script>
-		<script src="./data/chart-total.js"></script>
-		<script src="./data/dataRaddaKilledPerDay.js"></script>
+		<script src="./data/data-chart-daily.js"></script>
 		<script src="//d3js.org/d3.v3.min.js"></script>
 		<script src="./chart-pie.js"></script>
+
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+     
+
 	</head>
 	<body>
+		<div id="skills">
+	      <div id="skillmap">
+	        <div class="skills-wrapper">
+	          <div class="skills-sunburst"></div>
+	          <div class="skills-chart">
+	            <div id="skills-chart-breadcrumb"></div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
 		<h1>Total de Raddas</h1>
-			<div id="raddasTotal" class="lineChart" ></div>
+			<div id="raddasTotal" ></div>
 		<h1>Raddas por Dia</h1>
-			<div id="raddasPerDay" class="lineChart" ></div>
-			<hr />
-		<h1>Mortes por Raddas</h1>
-			<div id="raddasDeaths" class="lineChart" ></div>
-			<hr />
-		<h1>Assistencia em Raddas por Dia</h1>
-			<div id="raddasKillAssists" class="lineChart" ></div>
-			<hr />
-		<h1>K/d</h1>
-			<div id="raddasKdr" class="lineChart" ></div>
-			<hr />
+			<div id="raddasPerDay" ></div>
 			<div class="pieChart raddasPerClass_mmartche_br">
 				<h3>Raddas por Classe {mmartche_br}</h3>
 				<script>createPieRadda("mmartche_br");</script>
@@ -43,16 +42,10 @@
 				<h3>Raddas por Classe {nderato}</h3>
 				<script>createPieRadda("nderato");</script>
 			</div>
-			<div class="pieChart raddasPerClass_UrsoYogi">
-				<h3>Raddas por Classe {UrsoYogi}</h3>
-				<script>createPieRadda("UrsoYogi");</script>
-			</div>
-			<div class="pieChart raddasPerClass_Valdeirsilva12">
-				<h3>Raddas por Classe {Valdeirsilva12}</h3>
-				<script>createPieRadda("Valdeirsilva12");</script>
-			</div>
 
 	</body>
+    <script type="text/javascript" src="./data/skillsdata.js"></script>
+    <script type="text/javascript" src="skill.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </html>
 

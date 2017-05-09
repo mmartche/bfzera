@@ -5,8 +5,7 @@ $soldados = array(
 	["displayName"=>"FARRELL_E_TALITA",	"platform"=>"2"],
 	["displayName"=>"mmartche_br",		"platform"=>"2"],
 	["displayName"=>"nderato",			"platform"=>"2"],
-	["displayName"=>"thiagossegatto",	"platform"=>"2"],
-	["displayName"=>"RenanKillRJ",		"platform"=>"2"]
+	["displayName"=>"thiagossegatto",	"platform"=>"2"]
 	);
 
 $arraySoldados = array([
@@ -14,8 +13,7 @@ $arraySoldados = array([
 	"FARRELL_E_TALITA"	=>"0",
 	"mmartche_br"		=>"0", 
 	"nderato" 			=>"0", 
-	"thiagossegatto" 	=>"0", 
-	"RenanKillRJ"		=>"0"
+	"thiagossegatto" 	=>"0"
 	]);
 $newArraySoldados = array([
 	"date" => date('d/m/y')
@@ -56,7 +54,8 @@ function adicionaDiario($nomeSoldados, $dailyToProccess) {
 					$lastKill[$nome] = (int)$newResults[$r]->$nome->kills;
 					$lastDeaths[$nome] = (int)$newResults[$r]->$nome->deaths;
 					$lastKillAssists[$nome] = (int)$newResults[$r]->$nome->killAssists;
-					$lastKdr[$nome] = (int)$newResults[$r]->$nome->kdr;
+					// $lastKdr[$nome] = (int)$newResults[$r]->$nome->kdr;
+					$lastKdr[$nome] = (int)$newResults[$r]->$nome->kills / (int)$newResults[$r]->$nome->deaths;
 				} else {
 					$middleFileDaily .= ",".((int)$newResults[$r]->$nome->kills - $lastKill[$nome]);
 					$lastKill[$nome] = (int)$newResults[$r]->$nome->kills;
@@ -67,8 +66,10 @@ function adicionaDiario($nomeSoldados, $dailyToProccess) {
 					$middleFileKillAssists .= ",".((int)$newResults[$r]->$nome->killAssists - $lastKillAssists[$nome]);
 					$lastKillAssists[$nome] = (int)$newResults[$r]->$nome->killAssists;
 
-					$middleFileKdr .= ",".((float)$newResults[$r]->$nome->kdr);
-					$lastKdr[$nome] = (float)$newResults[$r]->$nome->kdr;
+					// $middleFileKdr .= ",".((float)$newResults[$r]->$nome->kdr);
+					$middleFileKdr .= ",".(float)((int)$newResults[$r]->$nome->kills / (int)$newResults[$r]->$nome->deaths);
+					// $lastKdr[$nome] = (float)$newResults[$r]->$nome->kdr;
+					$lastKdr[$nome] = (float)((int)$newResults[$r]->$nome->kills / (int)$newResults[$r]->$nome->deaths);
 				}
 			}
 		}
